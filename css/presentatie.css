@@ -229,6 +229,12 @@ header
     grid-row: 2/3;
 }
 
+.assessmentVBSEen
+{
+    grid-column: 2/3;
+    grid-row: 2/3; 
+}
+
 .purpleBarDown
 {
     grid-column: 1/4;
