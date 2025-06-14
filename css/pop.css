@@ -90,7 +90,7 @@ header
         text-decoration: none;
     }
 
-    ul
+    .ulLinks
     {
         list-style-type: none;
         grid-column: 2/5;
@@ -170,153 +170,75 @@ header
     column-gap: 10px;
 }
 
-.aboutProjects {
+.pop
+{
     display: grid;
     grid-column: 1/4;
     grid-row: 4/5;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 
-        auto 3px auto 3px     
-        auto 3px auto 3px    
-        auto 3px auto 3px    
-        auto 3px auto 3px;    
-    padding: 50px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3px 10fr 3px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:100px;
+    padding-right: 100px;
     column-gap: 150px;
 }
 
-.aboutOuiPicture 
+.popTitle
 {
-    grid-column: 2 / 3;
-    grid-row: 3;
-    max-width: 550px;
-    max-height: 550px;
-    margin: 0 auto;
-}
-
-.aboutOuiTitle 
-{
-    grid-column: 1 / 2;
-    grid-row: 1;
-    padding-top: 10px;
+    grid-column: 2/3;
+    grid-row: 1/2;
     margin-bottom: 0;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .purpleBarUp
 {
-    grid-column: 1/2;
+    grid-column: 1/4;
     grid-row: 2/3;
     background-color: var(--purple);
 }
 
-.aboutOuiContent 
+.popContent
 {
-    grid-column: 1 / 2;
-    grid-row: 3;
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.popSTwee
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.bewijsEen
+{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.bewijsTwee
+{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.bewijsDrie
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 .purpleBarDown
 {
-    grid-column: 1/2;
+    grid-column: 1/4;
     grid-row: 4/5;
-    background-color: var(--purple);
-}
-
-.aboutDatabaseTitle {
-    grid-column: 1 / 2;
-    grid-row: 5;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-
-.purpleBarUpDatabase {
-    grid-column: 1 / 2;
-    grid-row: 6;
-    background-color: var(--purple);
-}
-
-.aboutDatabaseContent {
-    grid-column: 1 / 2;
-    grid-row: 7;
-}
-
-.aboutDatabasePicture 
-{
-    grid-column: 2 / 3;
-    grid-row: 7;
-    max-width: 550px;
-    max-height: 550px;
-    margin: 0 auto;
-}
-
-.purpleBarDownDatabase {
-    grid-column: 1 / 2;
-    grid-row: 8;
-    background-color: var(--purple);
-}
-
-.aboutBBTitle {
-    grid-column: 1 / 2;
-    grid-row: 9;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-
-.purpleBarUpBB {
-    grid-column: 1 / 2;
-    grid-row: 10;
-    background-color: var(--purple);
-}
-
-.aboutBBContent {
-    grid-column: 1 / 2;
-    grid-row: 11;
-}
-
-.aboutBBPicture 
-{
-    grid-column: 2 / 3;
-    grid-row: 11;
-    max-width: 550px;
-    max-height: 550px;
-    margin: 0 auto;
-}
-
-.purpleBarDownBB {
-    grid-column: 1 / 2;
-    grid-row: 12;
-    background-color: var(--purple);
-}
-
-.aboutInnoTitle {
-    grid-column: 1 / 2;
-    grid-row: 13;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-
-.purpleBarUpInno {
-    grid-column: 1 / 2;
-    grid-row: 14;
-    background-color: var(--purple);
-}
-
-.aboutInnoContent {
-    grid-column: 1 / 2;
-    grid-row: 15;
-}
-
-.aboutInnoPicture 
-{
-    grid-column: 2 / 3;
-    grid-row: 15;
-    max-width: 550px;
-    max-height: 550px;
-    margin: 0 auto;
-}
-
-.purpleBarDownInno {
-    grid-column: 1 / 2;
-    grid-row: 16;
     background-color: var(--purple);
 }
 
