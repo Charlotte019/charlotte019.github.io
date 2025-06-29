@@ -176,7 +176,7 @@ header
     grid-column: 1/4;
     grid-row: 4/5;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 3px 10fr 3px;
+    grid-template-rows: 1fr 3px auto 3px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left:100px;
@@ -208,7 +208,9 @@ header
     column-gap: 50px;
     row-gap: 50px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .edumundoSEen

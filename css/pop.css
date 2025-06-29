@@ -207,6 +207,8 @@ header
     grid-row: 3/4;
     column-gap: 50px;
     row-gap: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
@@ -223,10 +225,12 @@ header
     grid-row: 1/2;
 }
 
-.bewijsTwee
+.bewijsTwee, .bewijsTwee:hover
 {
     grid-column: 1/2;
     grid-row: 2/3;
+    font-size: 50px;
+    text-decoration: underline;
 }
 
 .bewijsDrie

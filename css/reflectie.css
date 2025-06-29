@@ -209,6 +209,8 @@ header
     row-gap: 50px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .reflectieVerslagSEen
