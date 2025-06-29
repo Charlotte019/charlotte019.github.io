@@ -176,7 +176,7 @@ header
     grid-column: 1/4;
     grid-row: 4/5;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 3px auto 3px;
+    grid-template-rows: 1fr 3px 10fr 3px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left:100px;
@@ -208,7 +208,7 @@ header
     column-gap: 50px;
     row-gap: 50px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -217,6 +217,18 @@ header
 {
     grid-column: 1/2;
     grid-row: 1/2;
+}
+
+.rondjeFeedback
+{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.rondjeFeedbackGeven
+{
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 .purpleBarDown
